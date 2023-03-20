@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    text-align: center;
+    background-color: #7F8487;
+}
+
+#navbarNav {
+    font-size: 20px;
+    background-color: #7F8487;
+    color: white; 
+}
+
+.nav-link {
+    color: white; 
+}
+
+.cardcarousel { 
+    display:flex;
+    flex-direction: row;
+    padding-top: 7%; 
+}
+
+.card {
+    width:70%;
+}
+
+.card-body{ 
+    padding: 15px; 
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+/* ------About.html--------- */
+
+h1 , p {
+    text-align: center; 
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.about { 
+    padding-top: 5%;
+}
+
+/* -----Sign Up.html----- */
+
+.mb-3 {
+    width: 35%;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.exampleFormControlInput1{ 
+    text-align: center;
+}
+
+.btn {
+    margin-right: auto; 
+    margin-left: auto;
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+.cardcarousel {
+    display: flex; 
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+}
+
+h1, p { 
+    width: 85%;
+}
+
+.mb-3 {
+    width: 75%;
+}
+
+}
+
